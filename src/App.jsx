@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
+import Programs from './components/Programs';
 import EventsPage from './components/EventsPage';
 
 const App = () => {
@@ -14,8 +15,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/programs" element={<Programs />} />
           <Route path="/events" element={<EventsPage />} />
-          {/* Add more routes for other pages */}
         </Routes>
       </div>
     </Router>

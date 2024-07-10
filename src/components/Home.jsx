@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Card from './components/Card';
+import Navbar from './Navbar.jsx';
+import Card from './Card.jsx';
 
 const App = () => {
   const programsData = [
@@ -91,44 +91,3 @@ const App = () => {
 };
 
 export default App;
-import React from 'react';
-import Card from './Card';
-
-const Home = () => {
-  // ... (copy the content from your original App.jsx, excluding the Navbar)
-  return (
-    <>
-      {/* Hero Section */}
-      <div className="bg-blue-600 text-white py-20">
-        {/* ... */}
-      </div>
-      
-      {/* Mission Statement */}
-      <div className="container mx-auto py-12 px-4">
-        {/* ... */}
-      </div>
-
-      {/* Programs Section */}
-      <div className="container mx-auto py-12 px-4">
-        {/* ... */}
-      </div>
-
-      {/* Impact Areas Section */}
-      <div className="bg-gray-200 py-16">
-        {/* ... */}
-      </div>
-
-      {/* Testimonial Section */}
-      <div className="py-16">
-        {/* ... */}
-      </div>
-
-      {/* Call-to-Action Section */}
-      <div className="bg-blue-600 text-white py-16">
-        {/* ... */}
-      </div>
-    </>
-  );
-};
-
-export default Home;
