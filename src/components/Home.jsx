@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
 import Card from './Card.jsx';
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Navbar />
       
       {/* Hero Section */}
       <div className="bg-blue-600 text-white py-20">

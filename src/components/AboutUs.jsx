@@ -1,11 +1,9 @@
 // components/AboutUs.jsx
 import React from 'react';
-import Navbar from './Navbar';
 
 const AboutUs = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <Navbar />
       <div className="container mx-auto py-12 px-4">
         <h1 className="text-4xl font-bold text-center mb-8">About Us</h1>
         <div className="bg-white rounded-lg shadow-md p-8 max-w-3xl mx-auto">

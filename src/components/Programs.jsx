@@ -1,6 +1,7 @@
 // components/Programs.jsx
 import React from 'react';
 import Card from './Card';
+import NavBar from './Navbar.jsx'
 
 const Programs = () => {
   const programs = [
@@ -30,7 +31,7 @@ const Programs = () => {
       icon: '💻',
     },
     {
-      title: 'Girls' Education Initiative',
+      title: 'Girls\' Education Initiative',
       description: 'Focused support to promote education among girls in underserved communities.',
       icon: '👧',
     },

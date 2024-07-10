@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './Navbar';
 
 const EventsPage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -26,7 +25,6 @@ const EventsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Navbar />
 
       {/* Hero Section with Slideshow */}
       <div className="relative h-96 overflow-hidden">
