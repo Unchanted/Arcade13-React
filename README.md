@@ -24,17 +24,9 @@ npm install
 ```
 4. Start the development server:
 ```bash
-npm run dev
+npm run8dev
 ```
 5. Open your browser and visit 'https://localhost:5173' or the specified port number by the vite development server to view the application.
 
 
 Arcade18
-```
-```
-```
-```
-```
-```
-```
-```
