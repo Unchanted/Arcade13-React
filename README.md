@@ -1,8 +1,40 @@
-# React + Vite
+# React Project with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application built using Vite as the development server.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js (version 14 or higher)
+- npm (usually comes with Node.js)
+- Git
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Unchanted/React.git
+```
+2. Navigate to your project directory:
+```bash
+cd React
+```
+3. install dependencies 
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm run dev
+```
+5. Open your browser and visit 'https://localhost:5173' or the specified port number by the vite development server to view the application.
+
+
+Arcade18
+```
+```
+```
+```
+```
+```
+```
+```
